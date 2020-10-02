@@ -11,12 +11,21 @@
 </head>
 <body>
     <h1>Undersökning av en persons vanor och intressen</h1>
-    <p><form><strong>Mata in ditt namn</strong><br>
-        <label for="name"><em>Ange ditt namn:</em></label>
+    <p><form>
+        <label for="name"><Strong>Ange ditt namn:</Strong></label>
         <input type="text" id="name" name="name" maxlength="10" size="35"><br><br>
         <label for="about">Skriv en kort beskrivning om dig själv:</label><br><br>
-        <textarea id="about" name="about" rows="4" cols="30"></textarea>
-
+        <textarea id="about" name="about" rows="4" cols="30"></textarea><br><br>
+        <label for="sport"><em>Tränar du någon sport?</em></label>
+        <input type="radio" id="Yes" name="sport" value="Yes">
+        <label for="Yes">Ja</label>
+        <input type="radio" id="No" name="sport" value="No">
+        <label for="No">Nej</label>
+        
+        
+        
+        
+        <input type="reset">
     </form>
     </p>
 
